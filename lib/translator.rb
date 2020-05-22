@@ -1,7 +1,8 @@
 require "yaml"
 
 def load_library (data_file)
-  # code goes here
+  results_hash
+
 end
 
 def get_japanese_emoticon
