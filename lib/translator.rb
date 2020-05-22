@@ -2,9 +2,8 @@ require "yaml"
 require "pry"
 
 def load_library (file_path)
-  binding.pry
   results_hash = {}
-  yaml.load(data_file)
+  file = yaml.load(file_path)
   results_hash
 end
 
