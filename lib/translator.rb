@@ -18,6 +18,12 @@ end
 
 def get_japanese_emoticon(file_path, emojinglish)
   awesome_hash = load_library(file_path)
+  awesome_hash.each do |k_word_string, v_emos_hash|
+    if v_emos_hash[:english] == emojinglish
+      return v_emos_hash[:japanese]
+    end
+
+  end
 
 end
 
