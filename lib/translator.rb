@@ -28,6 +28,6 @@ def get_english_meaning (file_path, emonnipon)
     end
 
   end
-return "Sorry, that emoticon was not found."
+return "Sorry, that emoticon was not found"
   # code goes here
 end
