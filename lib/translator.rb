@@ -3,6 +3,7 @@ require "pry"
 
 def load_library (file_path)
   results_hash = {}
+  file = File.open(file_path)
   results_hash
 end
 
