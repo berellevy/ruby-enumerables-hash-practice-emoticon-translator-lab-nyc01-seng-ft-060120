@@ -1,6 +1,6 @@
 require "yaml"
 
-def load_library (data_file)
+def load_library (file_path)
   results_hash = {}
   yaml.load(data_file)
   results_hash
