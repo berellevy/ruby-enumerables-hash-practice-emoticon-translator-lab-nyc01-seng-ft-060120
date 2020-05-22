@@ -3,8 +3,9 @@ require "pry"
 
 def load_library (file_path)
   results_hash = {}
-  file = File.open(file_path)
-  raw_text = file.read
+  file = YAML.load_file(file_path)
+  # file = File.open(file_path)
+  # raw_text = file.read
   binding.pry
   results_hash
 end
