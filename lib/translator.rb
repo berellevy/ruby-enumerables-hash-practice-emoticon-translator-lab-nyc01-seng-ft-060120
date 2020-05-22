@@ -26,8 +26,8 @@ def get_english_meaning (file_path, emonnipon)
     if v_emos_hash[:japanese] = emonnipon
       k_word_string
     end
-    
+
   end
-  
+
   # code goes here
 end
