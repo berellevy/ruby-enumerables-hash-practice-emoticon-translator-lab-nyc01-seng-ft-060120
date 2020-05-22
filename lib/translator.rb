@@ -1,7 +1,7 @@
 require "yaml"
 
 def load_library (data_file)
-  results_hash
+  results_hash = {}
 
 end
 
