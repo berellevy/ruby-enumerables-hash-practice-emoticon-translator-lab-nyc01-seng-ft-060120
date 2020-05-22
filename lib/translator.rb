@@ -24,10 +24,10 @@ def get_english_meaning (file_path, emonnipon)
   wonderful_hash = load_library(file_path)
   wonderful_hash.each do |k_word_string, v_emos_hash|
     if v_emos_hash[:japanese] == emonnipon
-      return k_word_string
+      result = k_word_string
     end
 
   end
-
+result ? k_word_string : "Sorry, that emoticon was not found."
   # code goes here
 end
